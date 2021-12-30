@@ -1,0 +1,56 @@
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #51dbbb;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+}
+
+.styled:hover {
+    background-color: rgb(33, 41, 46);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+@import url('http://fonts.cdnfonts.com/css/alliance-no1');
+
+body {
+    font-family: "Alliance No.1", sans-serif;
+    text-align: center;
+    color: #fff;
+    background-color: #1a1a1a;
+}
+  
+.profile {
+    width: 30%;
+}
+
+img {
+    width: 50%;
+}
+
+@media (max-width: 1150px) {
+  img {
+      width: 60%;
+  }
+}
+
+@media (max-width: 950px) {
+    .profile {
+        width: 30%;
+    }
+    img {
+        width: 95%;
+    }
+}
